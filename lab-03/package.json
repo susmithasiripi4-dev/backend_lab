@@ -1,0 +1,30 @@
+{
+  "name": "lab-03-rest-api",
+  "version": "1.0.0",
+  "description": "Lab 3: REST API, query parameters, validation, debugging - Backend Development Fundamentals",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "init-db": "node initDb.js"
+  },
+  "keywords": [
+    "express",
+    "rest-api",
+    "sqlite3",
+    "validation",
+    "query-parameters"
+  ],
+  "author": "Aurora Student",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
