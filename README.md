@@ -1,2 +1,56 @@
-# backend_lab
-backend development fundamental labs
+
+# LAB 04 – Backend Development
+
+**Name:** Sushmitha  
+**Registration Number:** 252U1R3089
+
+## Aim
+To develop a Registration and Login API using Node.js, Express.js, SQLite, bcrypt and JSON Web Tokens (JWT).
+
+## Technologies Used
+- Node.js
+- Express.js
+- SQLite3
+- bcrypt
+- jsonwebtoken
+- Postman
+
+## Features
+1. User Registration API
+2. Password Hashing using bcrypt
+3. User Login API
+4. JWT Token Generation
+5. Database Connectivity using SQLite
+
+## API Endpoints
+
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | / | Check server status |
+| POST | /register | Register a new user |
+| POST | /login | Login and generate JWT |
+
+## Installation
+
+```bash
+npm install
+```
+
+## Run the Application
+
+```bash
+npm start
+```
+
+Server runs at:
+
+http://localhost:3000
+
+## Testing
+All APIs are tested using Postman.
+
+## Database
+SQLite database is used to store user details. Passwords are stored in hashed format.
+
+## Conclusion
+Successfully developed and tested Registration and Login APIs with JWT authentication using Node.js and SQLite.
