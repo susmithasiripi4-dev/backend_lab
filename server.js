@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 const express = require("express");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
@@ -151,3 +152,5 @@ initializeDatabase()
     .catch((error) => {
         console.log("Database error:", error.message);
     });
+=======
+>>>>>>> ca21d995b9c843d160b6f2fe56cf8474cdb3c9e0
